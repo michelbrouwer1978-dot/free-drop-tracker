@@ -1,21 +1,141 @@
-BEGIN:VCALENDARVERSION:2.0PRODID:-//FreeDropTracker//ENCALSCALE:GREGORIANMETHOD:PUBLISHX-WR-CALNAME:Free Drop Tracker (NL)BEGIN:VEVENTUID:tmdb-movie-1311031-2025-09-11@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250911DTEND;VALUE=DATE:20250912SUMMARY:劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来DESCRIPTION:Eerste film in Demon Slayer: Kimetsu no Yaiba's Infinity Cast
- le-verhaallijn. (TMDB)URL:https://www.themoviedb.org/movie/1311031?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1285965-2025-09-11@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250911DTEND;VALUE=DATE:20250912SUMMARY:Dangerous AnimalsDESCRIPTION:Een slimme en vrijgevochten surfer wordt ontvoerd door een se
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//FreeDropTracker//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Free Drop Tracker (NL)
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU;BYHOUR=2;BYMINUTE=0;BYSECOND=0
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU;BYHOUR=3;BYMINUTE=0;BYSECOND=0
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:tmdb-movie-1311031-2025-09-11@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250911T080000
+DTEND;TZID=Europe/Amsterdam:20250911T090000
+SUMMARY:劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来
+DESCRIPTION:Eerste film in Demon Slayer: Kimetsu no Yaiba's Infinity Cast
+ le-verhaallijn. (TMDB)
+URL:https://www.themoviedb.org/movie/1311031?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1285965-2025-09-11@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250911T080000
+DTEND;TZID=Europe/Amsterdam:20250911T090000
+SUMMARY:Dangerous Animals
+DESCRIPTION:Een slimme en vrijgevochten surfer wordt ontvoerd door een se
  riemoordenaar die geobsedeerd is door haaien. Ze wordt gevangen gehouden 
  op zijn boot en moet bedenken hoe ze kan ontsnappen voordat hij een ritue
- el voederen uitvoert voor de haaien beneden. (TMDB)URL:https://www.themoviedb.org/movie/1285965?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1054867-2025-09-25@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250925DTEND;VALUE=DATE:20250926SUMMARY:One Battle After AnotherDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1054867?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1088166-2025-09-11@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250911DTEND;VALUE=DATE:20250912SUMMARY:RelayDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1088166?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1303613-2025-09-25@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250925DTEND;VALUE=DATE:20250926SUMMARY:SordaDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1303613?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1078012-2025-09-11@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250911DTEND;VALUE=DATE:20250912SUMMARY:Berenbende: Robotchaos!DESCRIPTION:Wanneer beren Briar en Bramble ontdekken dat hun moeder vroeg
+ el voederen uitvoert voor de haaien beneden. (TMDB)
+URL:https://www.themoviedb.org/movie/1285965?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1054867-2025-09-25@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250925T080000
+DTEND;TZID=Europe/Amsterdam:20250925T090000
+SUMMARY:One Battle After Another
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1054867?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1088166-2025-09-11@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250911T080000
+DTEND;TZID=Europe/Amsterdam:20250911T090000
+SUMMARY:Relay
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1088166?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1303613-2025-09-25@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250925T080000
+DTEND;TZID=Europe/Amsterdam:20250925T090000
+SUMMARY:Sorda
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1303613?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1078012-2025-09-11@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250911T080000
+DTEND;TZID=Europe/Amsterdam:20250911T090000
+SUMMARY:Berenbende: Robotchaos!
+DESCRIPTION:Wanneer beren Briar en Bramble ontdekken dat hun moeder vroeg
  er een geheim agent was\, staat hun berenwereld op z’n kop! Maar er is 
  geen tijd om bij te komen\, want een kwaadaardige tech-schurk dreigt de n
  atuur over te nemen met een leger van losgeslagen robots. Samen met hun 
  slimme mensenvriend Vick moeten de broers alles op alles zetten om het bo
  s én hun familie te redden. Van razende achtervolgingen tot hilarische r
- obotgevechten: dit avontuur is wilder dan ooit! (TMDB)URL:https://www.themoviedb.org/movie/1078012?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1453828-2025-09-26@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250926DTEND;VALUE=DATE:20250927SUMMARY:Kygo: Back at the BowlDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1453828?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1429969-2025-09-24@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250924DTEND;VALUE=DATE:20250925SUMMARY:HalloWiebeDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1429969?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1520873-2025-09-18@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250918DTEND;VALUE=DATE:20250919SUMMARY:Een vrouw als MoniqueDESCRIPTION:een vrouw als monique is een unieke en gelaagde film\, op het
+ obotgevechten: dit avontuur is wilder dan ooit! (TMDB)
+URL:https://www.themoviedb.org/movie/1078012?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1453828-2025-09-26@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250926T080000
+DTEND;TZID=Europe/Amsterdam:20250926T090000
+SUMMARY:Kygo: Back at the Bowl
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1453828?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1429969-2025-09-24@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250924T080000
+DTEND;TZID=Europe/Amsterdam:20250924T090000
+SUMMARY:HalloWiebe
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1429969?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1520873-2025-09-18@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250918T080000
+DTEND;TZID=Europe/Amsterdam:20250918T090000
+SUMMARY:Een vrouw als Monique
+DESCRIPTION:een vrouw als monique is een unieke en gelaagde film\, op het
   snijvlak van fictie en documentaire. Een oudere actrice arriveert in haa
  r vakantiehuis in Bretagne\, om zich daar voor te bereiden op een nieuwe 
  film. Ze heeft allerlei plakboeken bij zich en vele filmherinneringen. Me
  t een eigen oeuvre van meer dan vijftig films lopen heden en verleden som
  s door elkaar. Beelden van de vrouw in haar strandhuis spiegelen beelden 
  uit haar films\, en beelden uit films vervloeien met gebeurtenissen uit h
- aar eigen leven. (TMDB)URL:https://www.themoviedb.org/movie/1520873?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1528843-2025-09-11@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250911DTEND;VALUE=DATE:20250912SUMMARY:The SystemDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1528843?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1509402-2025-09-18@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250918DTEND;VALUE=DATE:20250919SUMMARY:Mr. & Mrs. AslanDESCRIPTION:Luna Aslan (Yolanthe Cabau) is een undercoveragent die met hu
+ aar eigen leven. (TMDB)
+URL:https://www.themoviedb.org/movie/1520873?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1528843-2025-09-11@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250911T080000
+DTEND;TZID=Europe/Amsterdam:20250911T090000
+SUMMARY:The System
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1528843?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1509402-2025-09-18@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250918T080000
+DTEND;TZID=Europe/Amsterdam:20250918T090000
+SUMMARY:Mr. & Mrs. Aslan
+DESCRIPTION:Luna Aslan (Yolanthe Cabau) is een undercoveragent die met hu
  lp van haar collega Niels (Thijs Boermans) na een bloedstollende missie t
  opcrimineel Baris (Önder 'Murda' Doğan) arresteert. Thuis moet Luna ech
  ter dealen met een nog grotere uitdaging: haar man Emre (Sinan Eroglu). H
@@ -24,4 +144,25 @@ BEGIN:VCALENDARVERSION:2.0PRODID:-//FreeDropTracker//ENCALSCALE:GREGORIANMETHOD:
   Ahmadi) raakt Emre ervan overtuigd dat Luna vreemdgaat. Wanneer de misve
  rstanden zich opstapelen en blijkt dat Baris het op zowel Luna als Emre g
  emunt heeft\, zetten Mr. en Mrs. Aslan alles op alles om hun leven en huw
- elijk te redden. (TMDB)URL:https://www.themoviedb.org/movie/1509402?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1459725-2025-09-25@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20250925DTEND;VALUE=DATE:20250926SUMMARY:VleesdagDESCRIPTION:Vleesdag. (TMDB)URL:https://www.themoviedb.org/movie/1459725?region=NLEND:VEVENTBEGIN:VEVENTUID:tmdb-movie-1541869-2025-10-01@freedropsDTSTAMP:20250908T054438ZDTSTART;VALUE=DATE:20251001DTEND;VALUE=DATE:20251002SUMMARY:De Club Van Sinterklaas: Een Dolle BeestenboelDESCRIPTION: (TMDB)URL:https://www.themoviedb.org/movie/1541869?region=NLEND:VEVENTEND:VCALENDAR
+ elijk te redden. (TMDB)
+URL:https://www.themoviedb.org/movie/1509402?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1459725-2025-09-25@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20250925T080000
+DTEND;TZID=Europe/Amsterdam:20250925T090000
+SUMMARY:Vleesdag
+DESCRIPTION:Vleesdag. (TMDB)
+URL:https://www.themoviedb.org/movie/1459725?region=NL
+END:VEVENT
+BEGIN:VEVENT
+UID:tmdb-movie-1541869-2025-10-01@freedrops
+DTSTAMP:20250908T062815Z
+DTSTART;TZID=Europe/Amsterdam:20251001T080000
+DTEND;TZID=Europe/Amsterdam:20251001T090000
+SUMMARY:De Club Van Sinterklaas: Een Dolle Beestenboel
+DESCRIPTION: (TMDB)
+URL:https://www.themoviedb.org/movie/1541869?region=NL
+END:VEVENT
+END:VCALENDAR
