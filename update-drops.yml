@@ -1,0 +1,42 @@
+name: Update drops.ics
+
+on:
+  schedule:
+    - cron: "5 4 * * *"   # Dagelijks 04:05 UTC (~06:05 NL-zomertijd)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Generate files (ICS + RSS)
+        env:
+          TMDB_KEY: ${{ secrets.TMDB_KEY }}
+        run: |
+          python free_drop_tracker.py \
+            --nl-preset \
+            --include-trailers \
+            --days-ahead 90 \
+            --skip-justwatch
+
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: auto-update drops.ics & drops.xml"
+          file_pattern: "drops.ics drops.xml"
